@@ -86,8 +86,7 @@ while True:
             pen.write(string,False,align="left",font=("Arial",14,"bold"))
             if x==1:
                 winsound.PlaySound("Explosion+1.wav",winsound.SND_ALIAS)
-                end()
-                
+                end()              
         if (player.ycor() > 290 or player.ycor() <-290):
             speed=0
             pen.penup()
@@ -98,9 +97,5 @@ while True:
             pen.write(string,False,align="left",font=("Arial",14,"bold"))
             if x==1:
                 winsound.PlaySound("Explosion+1.wav",winsound.SND_ALIAS)
-                end()
-            
-            
-            
-    
+                end()         
 delay=input("Enter to finish") 
